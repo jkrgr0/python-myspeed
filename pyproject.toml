@@ -9,6 +9,7 @@ repository = "https://github.com/jkrgr0/python-myspeed"
 
 [tool.poetry.dependencies]
 python = "^3.11"
+requests = "^2.32.3"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.3.3"
