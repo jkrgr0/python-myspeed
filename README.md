@@ -3,7 +3,7 @@
 [![codecov](https://codecov.io/gh/jkrgr0/python-myspeed/branch/main/graph/badge.svg?token=python-myspeed_token_here)](https://codecov.io/gh/jkrgr0/python-myspeed)
 [![CI](https://github.com/jkrgr0/python-myspeed/actions/workflows/main.yml/badge.svg)](https://github.com/jkrgr0/python-myspeed/actions/workflows/main.yml)
 
-Awesome python_myspeed created by jkrgr0
+Python wrapper for the MySpeed API.
 
 ## Install it from PyPI
 
@@ -14,17 +14,9 @@ pip install python_myspeed
 ## Usage
 
 ```py
-from python_myspeed import BaseClass
-from python_myspeed import base_function
+import python_myspeed
 
-BaseClass().base_method()
-base_function()
-```
-
-```bash
-$ python -m python_myspeed
-#or
-$ python_myspeed
+myspeed = python_myspeed.MySpeedAPI("127.0.0.1", 5216, "SecureAP1Token")
 ```
 
 ## Development
